@@ -1,3 +1,7 @@
+# Minikube & Spring Boot Deployment Guide
+
+This guide outlines the process of setting up a Kubernetes environment using Minikube and deploying Spring Boot applications.
+
 1. we begin by installing minikube
 2. configuring kubectl to talk with the cluster named minikube:
 <br>
