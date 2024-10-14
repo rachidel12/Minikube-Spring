@@ -40,7 +40,7 @@ This guide outlines the process of setting up a Kubernetes environment using Min
 ```kubectl delete service <service_name>```<hr>
 ```kubectl delete deployment <deployment_name>```
 
-9.  to strat the minikube-frontend-service, we run this command to access to our application from our browser:
+9.  to start the minikube-frontend-service, we run this command to access to our application from our browser:
 <br>
 ```minikube service minikube-demo-frontend ```
 
