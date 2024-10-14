@@ -6,12 +6,13 @@ This guide outlines the process of setting up a Kubernetes environment using Min
 2. configuring kubectl to talk with the cluster named minikube:
 <br>
 ```kubectl config use-context minikube```
+
 3. getting the info of the cluster: kubectl cluster-info
 4. to access to minikube Dashboard: minikube Dashboard
 
 5. we create 2 simple spring boot projetcs: "backend" and "frontend"
 
-6. run the command: mvn clean packages in order to create the jar artefact of each profect
+6. run the command: mvn clean packages in order to create the jar artefact of each project
 
 - to run or use docker on your local docker images on your minikube cluster, run this commad before step 7:
 <br>
